@@ -1,0 +1,126 @@
+body{
+  font-family: 'Inter';
+    background-color: black;
+}
+nav
+{
+background-color: orange;
+margin-top: 10px;
+margin-bottom: 10px;
+color: white;
+height: 30px;
+text-align: center;
+padding-top: 5px;
+border-radius: 5px;
+margin-left: 20px;
+margin-right: 20px;
+
+
+
+}
+
+.maincontainer
+{
+/*height: 800px ;
+width: 800px ;*/
+background-color: black;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+flex-direction: column;
+border-radius: 10px;
+
+
+}
+
+.item1
+{
+  height: 190px;
+  width: 250px;
+  background-color: orange;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.item2{
+  height: 250px;
+  width: 250px;
+  background-color: orange;
+    margin: 20px;
+      border-radius: 10px;
+
+}
+.item3{
+  height: 250px;
+  width: 250px;
+  background-color: orange;
+    margin: 20px;
+      border-radius: 10px;
+      padding-left: 10px;
+}
+.item4{
+  height: 770px;
+  width: 1300px;
+  background-color: orange;
+    margin: 20px;
+    flex-grow: 3;
+
+    position: absolute;
+    margin-left: 400px;
+      border-radius: 10px;
+}
+img{
+  padding-top: 10px;
+  height: 120px;
+  width:120px;
+  border-radius: 120px;
+
+}
+
+i
+{
+  padding: 10px;
+}
+li{
+  padding: 5px;
+}
+.head{
+  padding-left: 20px;
+}
+h3{
+  padding-left: 10px
+}
+h2
+{
+  padding-left: 50px;
+}
+.inside4{
+  padding-left: 50px;
+}
+table{
+border: 1px solid black;
+  border-color: black;
+  border-style: inset;
+  border-radius: 10px;
+
+
+}
+
+tr,td{
+  border-left:hidden;
+  border-top: hidden;
+  border-bottom:hidden;
+}
+.fs{
+  border-right: hidden;
+}
+.fs1{
+
+  border-bottom: 1px solid black;
+
+}
+.fs11{
+  border-bottom: 1px solid black;
+  border-right: hidden;
+}
